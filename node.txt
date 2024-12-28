@@ -1,0 +1,274 @@
+Node /////// 
+
+-Node: is a runtime environment for executing JavaScript on server side
+
+-Runtime environment: focus on providing necessary infrastructure for code execution,
+including service like memory management and i/o operations
+
+-Framework: Primarily  simplify the development process by offering a structured set of tools
+
+Main features of node.?
+1.Single Threaded
+2.Asynchronous
+3.Event-driven
+4.v8 JavaScript engine
+5.cross Platform
+6.NPM (Package manager)
+7.Realtime Capabilities
+
+
+In a synchronous program , each task is perform one after the other,
+and the program waits for each operation to complete before moving to the next one.
+
+
+Events: signal something happened in program
+Event emitter: Create or emit the events
+Event Queue: Events emitted queued (stored)
+Event handler (Event listener): function{} responds to specific events
+Event Loop: The event loop picks up the event from event queue and executes them in order they were added
+
+Advantages of Node
+
+features
+1 Asynchronous     --- non blocking execution
+2 V8 engine        --- NodeJS executes code faster
+3 Event Driven architecture  handling events is more efficiently 
+4 cross-Platform - deployment on various OS
+5 JavaScript -- Coding in JS 
+
+suitable for scalable applications
+
+
+What are the disadvantages
+
+when to use:
+Realtime application
+Excellent for building light weight and scalable application
+well suited for building microservice
+-------------------------------------
+when not to use:
+CPU intense task / video processing 
+
+
+
+
+
+top 5 built in modules in NODEJS
+fs: createFile, readFile
+path: join ,resolve
+os: os.type() , userInfo()
+events Event , event-emitter
+http : module can create Http sever that listens to server ports and gives a response back to client
+
+function : is a piece of code that perform a specific task when invoked or called
+Events represent an action that can be observed and respond to.
+
+
+
+
+Express // 
+
+Advantages of Express
+1 simplified web development
+2 middleware support
+3 flexible route system
+4 template Engine Integration
+
+
+request pipeline is series of middleware functions that handle incoming Http request and pass control to the next function
+
+types of middleware
+Application level middleware
+route level middleware
+error handling
+built in middleware : (static("public"))
+third party middleware : helmet , body-parser
+
+
+
+Advantages of middleware in Express.js
+Modularity 
+Reusability
+improved request handling
+flexible control flow
+third party middleware
+
+
+
+Routing /// 
+
+Routing is the process of directing incoming Http request to the appropriate handler functions [ GET, POST, DELETE, PUT. ETC]
+In express, routes are defined using app.methods(
+where Methods is the Https request methods e.g. GET,POST,PUT,DELETE) 
+
+and app is an instance of the Express applications
+
+
+
+Route handler is function we will pass to the get or use funtions
+
+Route parameter / this will be the dynamic we can fetch using req.params
+
+
+express.Router()
+
+is used to create a modular, mountable route handler. It allows us to define routes and middleware separately, 
+
+
+we can chain the middleware 
+
+
+Route nesting organize routes
+by groupingrelated routes under c common URL prefix
+
+Template Engines
+
+ EJS
+ Pug
+
+
+
+////// Rest Api 
+what are rest restfull Api
+(Representations state Transfer) is an architectural styles for designing
+networked applications 
+(Rest is a set of guidelines for creating Apis)
+
+Restful api's is service which follow Rest principle
+
+Request
+it contains Http actions (Get, Post)
+URL ,request body , request header
+Response
+it include the status code, content type, content header
+
+//
+Rest Guidelines
+1 separation of client and server
+   : must be independent , it allows easier maintainance , scalability
+  
+2 api stateless the server will not store anything about the http request the client made
+ : it will treat every req as new and will be light weight
+3 uniform interface
+identify the resource by url 
+4 cacheable
+ the api response should be cacheblae 
+ : performance improve
+5 layered system  it follow the layered pattern
+   MVC pattern
+
+//
+REST API and SOAP API
+/soap
+simple object protocol
+it use XML
+can be statefull or stateless
+slower due to XML
+
+//
+HTTP Verbs
+GET POST PUT PATCH DELETE
+
+//
+idempotence
+every time same response
+get put delete
+
+non idempotent method
+ post
+
+
+Status codes :convey the result of clients request
+
+1xx - informational
+2xx - success
+3xx - redirected
+4xx -bad request
+5xx server error
+
+100 continue
+
+200 ok
+201 created
+204 no content
+202 accepted
+
+400 - bad request
+401 - unauthorized
+403 - forbidden
+404 - not found
+
+500 internal server Error
+501 not implemented
+502 bad gateway
+503 service unavailable
+
+
+
+what is CORS in RESTAPI
+
+security feature provided by browser
+
+cross origin resource sharing is a security feature implemented in web browsers that restrict web pages or scripts from making request to different domain than the one that served the web pages
+
+
+
+
+Serialization is the process of cone=verting a object into format that can be stored transmitted , or reconstructed later
+
+Deserialization is the process of converting serialized data , such as binary / xml/ json data , back into an object
+
+
+types
+binary / XML / JSON
+
+
+types of authentications
+
+1. basic Authentication
+2. Api key Authentication
+3. Token based authentication (JWT)
+4. multi factor authentication
+5. Certificate based authentications
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
