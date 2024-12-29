@@ -1,15 +1,12 @@
 Introduction
-Good Morning / Good Afternoon !
-My name is Mallik , and I am a React focused software developer with 3 years of experience building scalable and efficient web application.
-I specialize in frontend development. Particularly using React
-where I have created reusable component, 
-optimized performance, and integrated APIs to deliver seamless user experience
+Good Morning / Good Afternoon!
+My name is Mallik, and I am a React-focused software developer with 3 years of experience building scalable and efficient web applications.
 
-Recently, I started expanding my skills to the backend by learning Node.js and MongoDb
-\ 
-I am passionate about leveraging my skills to create impactful application
-and iam eager to contribute to ur company by delivering high quality solution and growing as a fullstack developer
+I specialize in frontend development, particularly using React, where I have created reusable components, optimized performance, and integrated APIs to deliver seamless user experiences.
 
+I hold an engineering degree in Electronics and Communication from Visvesvaraya Technological University (VTU), graduating in 2021.
+
+Recently, I started expanding my skill set to the backend by learning Node.js and MongoDB, aiming to become a well-rounded full-stack developer.
 --------------------------------------------------------------------------------------------
 What is JavaScript.?
 JavaScript is a high-level programming language 
